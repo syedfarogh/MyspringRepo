@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class BasicController {
 
-	@GetMapping("/get")
+	@GetMapping("/zaidi")
 	public String getData() {
 		return "Welcome To My Running SpringAPP";
 	}
